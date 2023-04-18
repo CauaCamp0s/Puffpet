@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: calibri;
+}
+
+/* início css cadastro-geral */
+
+#header-cadastro{
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #87CEEB;
+}
+
+#meio{
+	display: flex;
+	height: 50px;
+	width: 1450px;
+}
+
+#logo{
+	height: 50px;
+	width: 190px;
+}
+
+#cadeado{
+	height: 45px;
+	width: 42px;
+}
+
+#ambiente-seguro{
+	display: flex;
+	align-items: center;
+	margin-left: 1100px;
+	color: #000C80;
+}
+
+#ambiente-seguro nav{
+	margin-right: 5px;
+	width: 70px;
+	text-align: center;
+}
+
+#ambiente-seguro label{
+	font-size: 13px;
+}
+
+#ambiente-seguro text{
+	font-weight: bold;
+	font-size: 18.5px;
+}
+
+#section-cadastro{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 500px;
+}
+
+#escolha-cadastro{
+	background-color: white;
+	height: 230px;
+	width: 360px;
+}
+
+#escolha-cadastro label{
+	display: block;
+	text-align: center;
+	font-size: 25px;
+	padding: 10px;
+}
+
+#escolha-cadastro a{
+	color: black;
+	display: block;
+	text-align: center;
+	background-color: #87CEEB;
+	text-decoration: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+	padding: 10px;
+	margin: 10px;
+	width: 230px;
+}
+
+#escolha-cadastro div{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+footer{
+	padding-top: 30px;
+	height: 60px;
+	width: 100%;
+	text-align: center;
+	color: #696969;
+}
+
+/* fim css cadastro-geral */ 
+
+/* início css cadastro-cliente */
+
+#section-cadastro-cliente{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+}
+
+#div-cadastro{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 30px;
+	width: 1200px;
+	height: 580px;
+}
+
+#div-cadastro div{
+	height: 560px;
+}
+
+#div-cadastro text{
+	font-size: 25px;
+	font-weight: bold;
+	color: #000C80
+}
+
+.label{
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 5px;
+	text-align: left;
+	color: #000C80;
+}
+
+.labelsexo{
+	color: #000C80;
+}
+
+#nav-title{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.input{
+	height: 30px;
+	width: 300px;
+	border-radius: 5px;
+	border: 1px solid #000C80;
+	padding: 3px;
+	font-size: 15px;
+}
+
+.menu{
+	margin-top: 20px;
+	padding: 10px;
+    text-align: center;
+}
+
+.sexoF{
+	margin-left: 10px;
+}
+
+.btnmenu{
+    background-color:#87CEEB;
+    padding: 5px;
+	margin: 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+	width: 80px;
+    font-size: 0.9em;
+    color: white;
+    text-transform: uppercase;
+}
+
+.btnmenu:hover{
+    background-color: white;
+	padding: 5px;
+    color:#000C80;
+    border: 1px solid #000C80;
+    border-radius: 5px;
+    text-transform: uppercase;
+	width: 80px;
+}
+
+/* fim css cadastro-cliente */
